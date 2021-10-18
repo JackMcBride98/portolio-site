@@ -80,9 +80,9 @@ export default function Home() {
           <h1 className="text-xl">Experience</h1>
           <div className="p-4 max-w-4xl sm:w-full border-2 rounded-md pb-2"> 
             <h2 className="text-lg">Computer Science at University of Bath 2017-2020</h2>
-            <p>
+            <p className="pb-2">
               Awarded a Diploma of Higher Education <br/>
-              Won the Netcraft Prize for placing in the top 10 students in first year Computer Science.
+              Won the Netcraft Prize for placing in the top 10 students in first year Computer Science. <br/>
               Units Studied: <br />
             </p>
             <ul className="inline-grid grid-cols-2 gap-x-1 justify-items-start list-disc list-inside">
