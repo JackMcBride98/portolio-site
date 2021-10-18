@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-0 sm:px-20 text-center">
+      <main className="flex flex-col items-center justify-center w-full flex-1 px-2 sm:px-20 text-center">
         <h1 className="text-3xl font-bold">
           Jack McBride - Web Developer
         </h1>
