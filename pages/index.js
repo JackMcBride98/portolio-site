@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 sm:px-0 text-center">
         <h1 className="text-3xl font-bold">
           Jack McBride - Web Developer
         </h1>
@@ -76,8 +76,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="my-8" >
-          <h1 className="text-xl mb-2">Experience</h1>
+        <div className="" >
+          <h1 className="text-xl">Experience</h1>
           <div className="p-4 max-w-4xl sm:w-full border-2 rounded-md pb-2"> 
             <h2 className="text-lg">Computer Science at University of Bath 2017-2020</h2>
             <p>
