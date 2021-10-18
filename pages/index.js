@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 sm:px-0 text-center">
+      <main className="flex flex-col items-center justify-center w-full flex-1 px-0 sm:px-20 text-center">
         <h1 className="text-3xl font-bold">
           Jack McBride - Web Developer
         </h1>
@@ -26,7 +26,7 @@ export default function Home() {
           <a className="p-4" href="www.linkedin.com/in/jack-connor-mcbride" target="_blank"> <Image src="/linkedinIcon.png" alt="LinkedIn Logo" width={64} height={64} /> </a>
         </div>
 
-        <div className="mt-8 p-4 max-w-4xl sm:w-full border-2 rounded-md" >
+        <div className="mt-8 p-4 sm:max-w-4xl w-full border-2 rounded-md" >
           <p className="">Hi! Thanks for checking out my portfolio. I am 23 years old and a web developer currently living in Didcot, Oxfordshire. I studied Computer Science at the University of Bath and was 
             awarded a Diploma of Higher Education. I am a highly creative individual and I enjoy designing and building fullstack web applications. I have many hobbies and interests 
             including: music production, reading, cooking, meditation, spirituality, calisthenics, running and surfing. I would be particurlaly interested in working in the fields of: 
@@ -34,7 +34,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="pt-6 max-w-4xl sm:w-full" >
+        <div className="pt-6 sm:max-w-4xl w-full" >
           <h2 className="text-xl pb-2">Languages, Frameworks and Technologies I am familiar with:</h2>
           <ul className="inline-grid grid-cols-3 gap-x-1 justify-items-start list-disc list-inside">
             <li>html/css </li>
@@ -52,7 +52,7 @@ export default function Home() {
           </ul>
         </div>
 
-        <div className="p-4 max-w-4xl sm:w-full" >
+        <div className="p-4 sm:max-w-4xl sm:w-full" >
           <h1 className="text-xl pb-2">Projects</h1>
           <div className="group mb-8 border-2 rounded-xl">
             <a href="http://online-drum-sequencer.herokuapp.com/" target="_blank"> 
@@ -76,7 +76,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="" >
+        <div className="sm:max-w-4xl sm:w-full" >
           <h1 className="text-xl">Experience</h1>
           <div className="p-4 max-w-4xl sm:w-full border-2 rounded-md pb-2"> 
             <h2 className="text-lg">Computer Science at University of Bath 2017-2020</h2>
@@ -120,7 +120,7 @@ export default function Home() {
             </p> */}
           </div>
 
-          <div className="p-4 max-w-4xl sm:w-full border-2 rounded-md my-8"> 
+          <div className="p-4 sm:max-w-4xl sm:w-full border-2 rounded-md my-8"> 
             <h2 className="text-lg">Summer Internship at CiteAb 2019</h2>
             <p>Worked as software developer at CiteAb, a life sciences data provider company, rearchitecting there web scraping processes. Gained Experience
               using Ruby on Rails, Github, CSS selectors and Haml.
@@ -132,7 +132,7 @@ export default function Home() {
             </p> */}
           </div>
         </div>
-        <div className="mb-8 max-w-4xl sm:w-full border-2 rounded-md ">
+        <div className="mb-8 sm:max-w-4xl sm:w-full border-2 rounded-md ">
           <h2 className="text-xl my-2"> Contact </h2>
           <p className="mb-4">
             Email: mcbride.jack1@gmail.com <br/>
