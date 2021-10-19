@@ -64,6 +64,18 @@ export default function Home() {
               Technologies used: html, css, Express, socket.io, jquery
             </p>
           </div>
+          <div className="group mb-8 border-2 rounded-xl">
+            <a href="https://secure-earth-05252.herokuapp.com" target="_blank">
+              <h2 className="text-lg font-bold py-2 group-hover:text-blue-800 group-hover:underline">Local Library Express Project</h2>
+              <Image className="border-2" src="/locallibrary.png" width="800" height="400"/>
+              <p className="py-2">
+                A website built for a local library to create, store and view book data. Built from
+                a <a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website" target="_blank" className="underline text-blue-800">tutorial</a> on 
+                Mozilla Developer Network. This covered setting up an express server, using a database MongoDB (mongoose), creating routes and controllers for sending data between the client and server,
+                 asynchronous functions, displaying the library data and working with forms. Technologies used: Javascript, Pug, Express, MongoDB, Mongoose, Nodejs.
+              </p>
+            </a>
+          </div>
           <div className="group mb-4 border-2 rounded-xl">
             <a href="https://jack-blog.vercel.app/" target="_blank">
               <h2 className="text-lg font-bold py-2 group-hover:text-blue-800 group-hover:underline">My Personal Blog Site</h2>
