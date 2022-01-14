@@ -120,8 +120,49 @@ export default function Home() {
             <p className="text-left p-2">
               A website which allows users to colloborate in real time to create
               drum beats. <br />
-              Technologies used: html, css, Express, socket.io, jquery
+              Technologies used: html, css, Javascript, Express, socket.io,
+              jquery
             </p>
+          </div>
+          <div className="group mb-8 border-2 rounded-xl">
+            <a href="https://et-bidding-game.herokuapp.com/" target="_blank">
+              <h2 className="text-lg font-bold py-2 group-hover:text-blue-800 group-hover:underline">
+                ET Bidding Game
+              </h2>
+              <Image
+                className="border-2"
+                src="/et-bidding-game.png"
+                width="250"
+                height="500"
+              />
+            </a>
+            <p className="text-left p-2">
+              A mobile-first responsive designed website used for scoring,
+              saving and creating a leaderboard for a card game I play with
+              friends <br />
+              Technologies used: Javascript, React, JSX, Tailwindcss, Express,
+              MongoDB, NodeJS
+            </p>
+          </div>
+          <div className="group mb-4 border-2 rounded-xl">
+            <a href="https://jack-blog.vercel.app/" target="_blank">
+              <h2 className="text-lg font-bold py-2 group-hover:text-blue-800 group-hover:underline">
+                My Personal Blog Site
+              </h2>
+              <Image
+                className="border-2"
+                src="/jackblog.png"
+                width="800"
+                height="400"
+              />
+              <p className="p-2 text-left">
+                My own personal blog where I cover topics such as software
+                development, music production, book reviews, mental health,
+                meditation and spirituality. <br />
+                Technlogies used: Nextjs, React, Javascript, JSX, Tailwindcss,
+                markdown, Auth0
+              </p>
+            </a>
           </div>
           <div className="group mb-8 border-2 rounded-xl">
             <a href="https://secure-earth-05252.herokuapp.com" target="_blank">
@@ -148,28 +189,9 @@ export default function Home() {
                 server, using a database MongoDB (mongoose), creating routes and
                 controllers for sending data between the client and server,
                 asynchronous functions, displaying the library data and working
-                with forms. Technologies used: Javascript, Pug, Express,
-                MongoDB, Mongoose, Nodejs.
-              </p>
-            </a>
-          </div>
-          <div className="group mb-4 border-2 rounded-xl">
-            <a href="https://jack-blog.vercel.app/" target="_blank">
-              <h2 className="text-lg font-bold py-2 group-hover:text-blue-800 group-hover:underline">
-                My Personal Blog Site
-              </h2>
-              <Image
-                className="border-2"
-                src="/jackblog.png"
-                width="800"
-                height="400"
-              />
-              <p className="p-2 text-left">
-                My own personal blog where I cover topics such as software
-                development, music production, book reviews, mental health,
-                meditation and spirituality. <br />
-                Technlogies used: Nextjs, React, JSX, Tailwindcss, markdown,
-                Auth0
+                with forms. <br />
+                Technologies used: Javascript, Pug, Express, MongoDB, Mongoose,
+                Nodejs.
               </p>
             </a>
           </div>
