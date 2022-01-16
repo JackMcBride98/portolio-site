@@ -12,6 +12,10 @@ export default function Home() {
       <Head>
         <title>Jack McBride - Web Developer</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="google-site-verification"
+          content="VZGnEz3QRBdhp6brONj_ezQLHEhN6mkzvBAN80-kugQ"
+        />
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-2 sm:px-20 text-center">
