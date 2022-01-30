@@ -2,11 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 
 export default function Home() {
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log(event.email);
-  };
-
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
@@ -73,9 +68,11 @@ export default function Home() {
         <div className="mt-8 p-4 sm:max-w-4xl w-full border-2 rounded-md">
           <p className="text-left">
             Hi! Thanks for checking out my portfolio. I am 23 years old and a
-            web developer currently living in Didcot, Oxfordshire. I studied
-            Computer Science at the University of Bath and was awarded a Diploma
-            of Higher Education. I am a highly creative individual and I enjoy
+            fulltstack web engineer currently living in Didcot, Oxfordshire. I
+            am currently working as a Junior Web Engineer at siHealth - a
+            digital healthcare solutions startup company. I studied Computer
+            Science at the University of Bath and was awarded a Diploma of
+            Higher Education. I am a highly creative individual and I enjoy
             designing and building fullstack web applications. I have many
             hobbies and interests including: music production, reading, cooking,
             meditation, spirituality, calisthenics, running and surfing. I would
@@ -121,7 +118,7 @@ export default function Home() {
                 height="400"
               />
             </a>
-            <p className="text-left p-2">
+            <p className="text-left p-2 px-4">
               A website which allows users to colloborate in real time to create
               drum beats. <br />
               Technologies used: html, css, Javascript, Express, socket.io,
@@ -140,7 +137,7 @@ export default function Home() {
                 height="500"
               />
             </a>
-            <p className="text-left p-2">
+            <p className="text-left p-2 px-4">
               A mobile-first responsive designed website used for scoring,
               saving and creating a leaderboard for a card game I play with
               friends <br />
@@ -159,7 +156,7 @@ export default function Home() {
                 width="800"
                 height="400"
               />
-              <p className="p-2 text-left">
+              <p className="p-2 text-left  px-4">
                 My own personal blog where I cover topics such as software
                 development, music production, book reviews, mental health,
                 meditation and spirituality. <br />
@@ -179,7 +176,7 @@ export default function Home() {
                 width="800"
                 height="400"
               />
-              <p className="p-2 text-left">
+              <p className="p-2 text-left  px-4">
                 A website built for a local library to create, store and view
                 book data. Built from a{" "}
                 <a
@@ -207,13 +204,13 @@ export default function Home() {
             <h2 className="text-lg font-bold text-center mb-4">
               Computer Science at University of Bath 2017-2020
             </h2>
-            <p className="pb-2">
+            <p className="pb-2 lg:px-4">
               Awarded a Diploma of Higher Education <br />
               Won the Netcraft Prize for placing in the top 10 students in first
               year Computer Science. <br />
               <span></span>Units Studied: <br />
             </p>
-            <ul className="inline-grid md:grid-cols-2 text-left gap-x-1 justify-items-start list-disc list-inside">
+            <ul className="inline-grid md:grid-cols-2 text-left gap-x-1 justify-items-start list-disc list-inside lg:pl-4">
               <li>Computing as a science and engineering discipline</li>
               <li>Computer Systems Architecture 1</li>
               <li>Discrete Maths for Computation</li>
@@ -232,20 +229,6 @@ export default function Home() {
               <li>Comparative programming languages</li>
               <li>Functional programming</li>
             </ul>
-            {/* <p>I thoroughly enjoyed my first year in Bath and I worked very hard, achieving 86% overall in my first year which place me in the top 10 students in the year!
-              We were taught the fundamentals of programming by first learning a low-level language C to teach us what a programming language does - communicate with the 
-              operating system to manage and manipulate data. We then moved onto a higher-level language Java where we learnt about Object Oriented Programmming. The course
-              wasn't all programming though, we also had units covering the software engineering lifecycle, computer systems architecture, fundamental maths and operating
-              systems.
-
-              In second year we covered more advanced topics such as: artifical intelligence, machine learning, data structures and algorithms, functional programming, visual
-              computing and human computer interaction. We also had an integrated group based project to design, document and build a software system which addresses a real 
-              world problem. I took the lead in this project and we designed "Sample Safe" an app which allows music producers to share, sort and source samples to use in 
-              there productions. I really enjoyed working as a team to design and develop a software system. I finished my second year with a high first. 
-
-              Unfortunately I was not able to finish my final year of university due to health problems, but I was awarded a Diploma of Higher Education for the two years I did
-              complete. Since then I have been working hard to heal myself and thankfully I am now at a place where I am able to work again.
-            </p> */}
           </div>
 
           <div className="p-4 sm:max-w-4xl sm:w-full border-2 rounded-md my-8">
@@ -258,16 +241,11 @@ export default function Home() {
               Gained Experience using Ruby on Rails, Github, CSS selectors and
               Haml.
             </p>
-            {/* <p>In the summer of 2019 I did a software development internship at CiteAb - a life sciences data provider company, who were recently named as finalists for the 
-              Vesalius Innovation Award. During my time there I was working on rearchitecting there web scraping processes, this was a fun and challenging problem which I was
-              glad to be able to help them with. I really enjoyed the small company culutre and learning about how the company was created and developed over time to become
-              a profitable small business.
-            </p> */}
           </div>
         </div>
         <div className="mb-8 sm:max-w-4xl sm:w-full border-2 rounded-md text-left p-2 ">
           <h2 className="text-xl my-2 font-bold text-center"> Contact </h2>
-          <p className="mb-4">
+          <p className="mb-4 px-4">
             Email: mcbride.jack1@gmail.com <br />
             Github:{" "}
             <a
@@ -292,61 +270,7 @@ export default function Home() {
             CV available upon request
           </p>
         </div>
-
-        {/* <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-          </div> */}
       </main>
-      {/* 
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
-        </a>
-      </footer> */}
     </div>
   );
 }
