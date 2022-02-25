@@ -11,6 +11,23 @@ export default function Home() {
           name="google-site-verification"
           content="VZGnEz3QRBdhp6brONj_ezQLHEhN6mkzvBAN80-kugQ"
         />
+        {/* Global Site Tag (gtag.js) - Google Analytics */}
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+              page_path: window.location.pathname,
+            });
+          `,
+          }}
+        />
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-2 sm:px-20 text-center">
