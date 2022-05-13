@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
-        <title>Jack McBride - Web Developer</title>
+        <title>Jack McBride - Fullstack Web Engineer</title>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="google-site-verification"
@@ -31,7 +31,9 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-2 sm:px-20 text-center">
-        <h1 className="text-3xl font-bold">Jack McBride - Web Developer</h1>
+        <h1 className="text-3xl font-bold">
+          Jack McBride - Fullstack Web Engineer{" "}
+        </h1>
 
         <div className="flex items-center justify-around flex-row">
           <Image
@@ -84,17 +86,17 @@ export default function Home() {
 
         <div className="mt-8 p-4 sm:max-w-4xl w-full border-2 rounded-md">
           <p className="text-left">
-            Hi! Thanks for checking out my portfolio. I am 23 years old and a
+            Hi! Thanks for checking out my portfolio. I am 24 years old and a
             fulltstack web engineer currently living in Didcot, Oxfordshire. I
             am currently working as a Junior Web Engineer at siHealth - a
             digital healthcare solutions startup company. I studied Computer
             Science at the University of Bath and was awarded a Diploma of
             Higher Education. I am a highly creative individual and I enjoy
             designing and building fullstack web applications. I have many
-            hobbies and interests including: music production, reading, cooking,
-            meditation, spirituality, calisthenics, running and surfing. I would
-            be particurlaly interested in working in the fields of:
-            sustainability, music, mental health, education and events.
+            hobbies and interests including: reading, cooking, meditation,
+            spirituality, music production, calisthenics, running and surfing. I
+            would be particurlaly interested in working in the fields of:
+            sustainability, health, education, music and psychology.
           </p>
         </div>
 
@@ -105,9 +107,11 @@ export default function Home() {
           <ul className="inline-grid grid-cols-2 md:grid-cols-3 gap-x-1 justify-items-start list-disc list-inside">
             <li>html/css </li>
             <li>javascript</li>
+            <li>Typescript</li>
             <li>React</li>
             <li>Nextjs</li>
             <li>Tailwindcss</li>
+            <li>Git</li>
             <li>mongodb</li>
             <li>sql</li>
             <li>python</li>
@@ -120,6 +124,39 @@ export default function Home() {
 
         <div className="p-4 sm:max-w-4xl sm:w-full">
           <h1 className="text-xl pb-2">Projects</h1>
+          <div className="group mb-8 border-2 rounded-xl">
+            <a
+              href="https://spotify-playlist-search-tool.vercel.app/"
+              target="_blank"
+            >
+              <h2 className="text-lg font-bold py-2 group-hover:text-blue-800 group-hover:underline">
+                Spotify Playlist Search Tool
+              </h2>
+              <Image
+                className="border-2"
+                src="/spotifyPlaylistSearchTool.png"
+                width="370"
+                height="500"
+              />
+              <p className="p-2 text-left  px-4">
+                A tool for finding out which of your saved Spotify playlists
+                contain a given artist or song. Used the Spotify Web API to
+                fetch all the users playlists, working around the rate limit. To
+                allow them to then search all of their playlists. Used a
+                virtualised list to optimise the performance and stored the
+                user's playlists in local storage to save on API calls and load
+                time on subsequent uses.
+                <br />
+                It's currently in development mode, so I have to explicitly
+                allow acces to user's.
+                <br /> Test account email: muccy3@gmail.com password: BenMee6!
+                <br />
+                Contact me if you would like me to allow you access :)
+                <br /> Technologies used: Typescript, React, Tailwindcss,
+                html/css, Spotify Web API
+              </p>
+            </a>
+          </div>
           <div className="group mb-8 border-2 rounded-xl">
             <a
               href="http://online-drum-sequencer.herokuapp.com/"
@@ -182,41 +219,28 @@ export default function Home() {
               </p>
             </a>
           </div>
-          <div className="group mb-8 border-2 rounded-xl">
-            <a href="https://secure-earth-05252.herokuapp.com" target="_blank">
-              <h2 className="text-lg font-bold py-2 group-hover:text-blue-800 group-hover:underline">
-                Local Library Express Project
-              </h2>
-              <Image
-                className="border-2"
-                src="/locallibrary.png"
-                width="800"
-                height="400"
-              />
-              <p className="p-2 text-left  px-4">
-                A website built for a local library to create, store and view
-                book data. Built from a{" "}
-                <a
-                  href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website"
-                  target="_blank"
-                  className="underline text-blue-800"
-                >
-                  tutorial
-                </a>{" "}
-                on Mozilla Developer Network. This covered setting up an express
-                server, using a database MongoDB (mongoose), creating routes and
-                controllers for sending data between the client and server,
-                asynchronous functions, displaying the library data and working
-                with forms. <br />
-                Technologies used: Javascript, Pug, Express, MongoDB, Mongoose,
-                Nodejs.
-              </p>
-            </a>
-          </div>
         </div>
 
         <div className="sm:max-w-4xl sm:w-full">
-          <h1 className="text-xl">Experience</h1>
+          <h1 className="text-xl pb-2">Experience</h1>
+          <div className="p-4 sm:max-w-4xl sm:w-full border-2 rounded-md my-8">
+            <h2 className="text-lg font-bold">
+              Junior Web Engineer at siHealth November 2021 - current
+            </h2>
+            <p className="text-left p-2">
+              My first job out of university. Worked closely in a team of 2
+              developers building a web portal using javascript, react and
+              tailwindcss. Have really enjoyed how much I've learnt here. Have
+              built forms, graphs, weather info pages, login pages, handled
+              translations and learnt about the software engineering process,
+              using BitBucket, Jira and working with design, management and
+              backend teams to create a product I am proud to have helped
+              create. I get on really well with the other more senior developer
+              on the web team. <br /> Gained experience using javascript, react,
+              html/css, tailwindcss, git, bitbucket, Jira, translations,
+              accesibility, SVG's, react-hook-form, amcharts and more
+            </p>
+          </div>
           <div className="p-4 max-w-4xl sm:w-full border-2 rounded-md pb-2 text-left">
             <h2 className="text-lg font-bold text-center mb-4">
               Computer Science at University of Bath 2017-2020
