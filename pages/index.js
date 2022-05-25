@@ -148,7 +148,7 @@ export default function Home() {
                 time on subsequent uses.
                 <br />
                 It's currently in development mode, so I have to explicitly
-                allow acces to user's.
+                allow access to users.
                 <br /> Test account email: muccy3@gmail.com password: BenMee6!
                 <br />
                 Contact me if you would like me to allow you access :)
