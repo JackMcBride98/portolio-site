@@ -1,5 +1,5 @@
-import Head from "next/head";
-import Image from "next/image";
+import Head from 'next/head';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -32,7 +32,7 @@ export default function Home() {
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-2 sm:px-20 text-center">
         <h1 className="text-3xl font-bold">
-          Jack McBride - Fullstack Web Engineer{" "}
+          Jack McBride - Fullstack Web Engineer{' '}
         </h1>
 
         <div className="flex items-center justify-around flex-row">
@@ -54,49 +54,49 @@ export default function Home() {
               alt="Github Logo"
               width={64}
               height={64}
-            />{" "}
+            />{' '}
           </a>
           <a
             className="p-4"
             href="mailto:mcbride.jack1@gmail.com"
             target="_blank"
           >
-            {" "}
+            {' '}
             <Image
               src="/gmailIcon.png"
               alt="Github Logo"
               width={64}
               height={64}
-            />{" "}
+            />{' '}
           </a>
           <a
             className="p-4"
-            href="www.linkedin.com/in/jack-connor-mcbride"
+            href="https://www.linkedin.com/in/jack-connor-mcbride"
             target="_blank"
           >
-            {" "}
+            {' '}
             <Image
               src="/linkedinIcon.png"
               alt="LinkedIn Logo"
               width={64}
               height={64}
-            />{" "}
+            />{' '}
           </a>
         </div>
 
         <div className="mt-8 p-4 sm:max-w-4xl w-full border-2 rounded-md">
           <p className="text-left">
             Hi! Thanks for checking out my portfolio. I am 24 years old and a
-            fulltstack web engineer currently living in Didcot, Oxfordshire. I
-            am currently working as a Junior Web Engineer at siHealth - a
-            digital healthcare solutions startup company. I studied Computer
-            Science at the University of Bath and was awarded a Diploma of
-            Higher Education. I am a highly creative individual and I enjoy
-            designing and building fullstack web applications. I have many
-            hobbies and interests including: reading, cooking, meditation,
-            spirituality, music production, calisthenics, running and surfing. I
-            would be particurlaly interested in working in the fields of:
-            sustainability, health, education, music and psychology.
+            fulltstack web engineer currently living in Bristol, England. I am
+            currently working as a Software Developer at Ghyston - a software
+            agency. I studied Computer Science at the University of Bath and was
+            awarded a Diploma of Higher Education. I am a highly creative
+            individual and I enjoy designing and building fullstack web
+            applications. I have many hobbies and interests including: reading,
+            cooking, meditation, spirituality, music production, calisthenics,
+            running and surfing. I would be particurlaly interested in working
+            in the fields of: sustainability, health, education, music and
+            psychology.
           </p>
         </div>
 
@@ -180,7 +180,7 @@ export default function Home() {
             </p>
           </div>
           <div className="group mb-8 border-2 rounded-xl">
-            <a href="https://et-bidding-game.herokuapp.com/" target="_blank">
+            <a href="https://et-bidding-game.vercel.app/" target="_blank">
               <h2 className="text-lg font-bold py-2 group-hover:text-blue-800 group-hover:underline">
                 ET Bidding Game
               </h2>
@@ -225,7 +225,18 @@ export default function Home() {
           <h1 className="text-xl pb-2">Experience</h1>
           <div className="p-4 sm:max-w-4xl sm:w-full border-2 rounded-md my-8">
             <h2 className="text-lg font-bold">
-              Junior Web Engineer at siHealth November 2021 - current
+              Software Developer at Ghyston October 2022 - Current
+            </h2>
+            <p className="text-left p-2">
+              Working in a software agency on a variety of projects with
+              external companies. Currently working on a pension retirement
+              affordability tool. Technologies used: Typescript, React, Styled
+              Components, Nx, Css, html, C#, ASP.NET
+            </p>
+          </div>
+          <div className="p-4 sm:max-w-4xl sm:w-full border-2 rounded-md my-8">
+            <h2 className="text-lg font-bold">
+              Junior Web Engineer at siHealth November 2021 - October 2022
             </h2>
             <p className="text-left p-2">
               My first job out of university. Worked closely in a team of 2
@@ -288,25 +299,25 @@ export default function Home() {
           <h2 className="text-xl my-2 font-bold text-center"> Contact </h2>
           <p className="mb-4 px-4">
             Email: mcbride.jack1@gmail.com <br />
-            Github:{" "}
+            Github:{' '}
             <a
               href="https://github.com/JackMcBride98"
               target="_blank"
               className="underline text-blue-800"
             >
-              {" "}
-              https://github.com/JackMcBride98{" "}
-            </a>{" "}
+              {' '}
+              https://github.com/JackMcBride98{' '}
+            </a>{' '}
             <br />
-            LinkedIn:{" "}
+            LinkedIn:{' '}
             <a
               href="https://www.linkedin.com/in/jack-connor-mcbride/"
               target="_blank"
               className="underline text-blue-800"
             >
-              {" "}
-              https://www.linkedin.com/in/jack-connor-mcbride/{" "}
-            </a>{" "}
+              {' '}
+              https://www.linkedin.com/in/jack-connor-mcbride/{' '}
+            </a>{' '}
             <br />
             CV available upon request
           </p>
