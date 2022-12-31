@@ -225,7 +225,18 @@ export default function Home() {
           <h1 className="text-xl pb-2">Experience</h1>
           <div className="p-4 sm:max-w-4xl sm:w-full border-2 rounded-md my-8">
             <h2 className="text-lg font-bold">
-              Junior Web Engineer at siHealth November 2021 - current
+              Software Developer at Ghyston October 2022 - Current
+            </h2>
+            <p className="text-left p-2">
+              Working in a software agency on a variety of projects with
+              external companies. Currently working on a pension retirement
+              affordability tool. Technologies used: Typescript, React, Styled
+              Components, Nx, Css, html, C#, ASP.NET
+            </p>
+          </div>
+          <div className="p-4 sm:max-w-4xl sm:w-full border-2 rounded-md my-8">
+            <h2 className="text-lg font-bold">
+              Junior Web Engineer at siHealth November 2021 - October 2022
             </h2>
             <p className="text-left p-2">
               My first job out of university. Worked closely in a team of 2
