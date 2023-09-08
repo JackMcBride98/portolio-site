@@ -64,7 +64,7 @@ export default function Home() {
             {' '}
             <Image
               src="/gmailIcon.png"
-              alt="Github Logo"
+              alt="Gmail Icon"
               width={64}
               height={64}
             />{' '}
@@ -113,14 +113,11 @@ export default function Home() {
             <li>Tailwindcss</li>
             <li>C#</li>
             <li>ASP .NET</li>
+            <li>Python</li>
             <li>Git</li>
             <li>mongodb</li>
             <li>sql</li>
-            <li>python</li>
             <li>Ruby on Rails</li>
-            <li>C</li>
-            <li>Java</li>
-            <li>Haskell</li>
           </ul>
         </div>
 
@@ -135,7 +132,7 @@ export default function Home() {
                 Spotify Playlist Search Tool
               </h2>
               <Image
-                className="border-2"
+                className="border-2 mx-auto"
                 src="/spotifyPlaylistSearchTool.png"
                 width="370"
                 height="500"
@@ -161,14 +158,14 @@ export default function Home() {
           </div>
           <div className="group mb-8 border-2 rounded-xl">
             <a
-              href="http://online-drum-sequencer.herokuapp.com/"
+              href="https://online-drum-sequencer.azurewebsites.net/"
               target="_blank"
             >
               <h2 className="text-lg font-bold py-2 group-hover:text-blue-800 group-hover:underline">
                 Online Multiplayer Drum Sequencer
               </h2>
               <Image
-                className="border-2"
+                className="border-2 mx-auto"
                 src="/drumseqcrop.png"
                 width="800"
                 height="400"
@@ -187,7 +184,7 @@ export default function Home() {
                 ET Bidding Game
               </h2>
               <Image
-                className="border-2"
+                className="border-2 mx-auto"
                 src="/et-bidding-game.png"
                 width="250"
                 height="500"
@@ -207,7 +204,7 @@ export default function Home() {
                 My Personal Blog Site
               </h2>
               <Image
-                className="border-2"
+                className="border-2 mx-auto"
                 src="/jackblog.png"
                 width="800"
                 height="400"
