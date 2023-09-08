@@ -86,7 +86,7 @@ export default function Home() {
 
         <div className="mt-8 p-4 sm:max-w-4xl w-full border-2 rounded-md">
           <p className="text-left">
-            Hi! Thanks for checking out my portfolio. I am 24 years old and a
+            Hi, Thanks for checking out my portfolio. I am 25 years old and a
             fulltstack web engineer currently living in Bristol, England. I am
             currently working as a Software Developer at Ghyston - a software
             agency. I studied Computer Science at the University of Bath and was
@@ -111,6 +111,8 @@ export default function Home() {
             <li>React</li>
             <li>Nextjs</li>
             <li>Tailwindcss</li>
+            <li>C#</li>
+            <li>ASP .NET</li>
             <li>Git</li>
             <li>mongodb</li>
             <li>sql</li>
@@ -229,9 +231,11 @@ export default function Home() {
             </h2>
             <p className="text-left p-2">
               Working in a software agency on a variety of projects with
-              external companies. Currently working on a pension retirement
-              affordability tool. Technologies used: Typescript, React, Styled
-              Components, Nx, Css, html, C#, ASP.NET
+              external companies. Worked on a pension retirement affordability tool for 6 months using Typescript, React, Styled
+              Components, Nx, GraphQL, MongoDB. Now working on the support team, providing bug fixes, live support and new features for a wide range of projects.
+              This has allowed me to gain experience in multiple areas: working with legacy code, communicating with clients, devops, fixing live issues, working
+              with application logs and insights to solve bugs and working with a wide range of technologies: C#, ASP .NET, Python, Ruby on Rails, Visual Basic, Winforms,
+              Blazor, Razor, SQL and Azure  
             </p>
           </div>
           <div className="p-4 sm:max-w-4xl sm:w-full border-2 rounded-md my-8">
