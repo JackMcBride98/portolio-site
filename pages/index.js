@@ -64,7 +64,7 @@ export default function Home() {
             {' '}
             <Image
               src="/gmailIcon.png"
-              alt="Github Logo"
+              alt="Gmail Icon"
               width={64}
               height={64}
             />{' '}
@@ -86,7 +86,7 @@ export default function Home() {
 
         <div className="mt-8 p-4 sm:max-w-4xl w-full border-2 rounded-md">
           <p className="text-left">
-            Hi! Thanks for checking out my portfolio. I am 24 years old and a
+            Hi, Thanks for checking out my portfolio. I am 25 years old and a
             fulltstack web engineer currently living in Bristol, England. I am
             currently working as a Software Developer at Ghyston - a software
             agency. I studied Computer Science at the University of Bath and was
@@ -111,14 +111,13 @@ export default function Home() {
             <li>React</li>
             <li>Nextjs</li>
             <li>Tailwindcss</li>
+            <li>C#</li>
+            <li>ASP .NET</li>
+            <li>Python</li>
             <li>Git</li>
             <li>mongodb</li>
             <li>sql</li>
-            <li>python</li>
             <li>Ruby on Rails</li>
-            <li>C</li>
-            <li>Java</li>
-            <li>Haskell</li>
           </ul>
         </div>
 
@@ -133,7 +132,7 @@ export default function Home() {
                 Spotify Playlist Search Tool
               </h2>
               <Image
-                className="border-2"
+                className="border-2 mx-auto"
                 src="/spotifyPlaylistSearchTool.png"
                 width="370"
                 height="500"
@@ -159,14 +158,14 @@ export default function Home() {
           </div>
           <div className="group mb-8 border-2 rounded-xl">
             <a
-              href="http://online-drum-sequencer.herokuapp.com/"
+              href="https://online-drum-sequencer.azurewebsites.net/"
               target="_blank"
             >
               <h2 className="text-lg font-bold py-2 group-hover:text-blue-800 group-hover:underline">
                 Online Multiplayer Drum Sequencer
               </h2>
               <Image
-                className="border-2"
+                className="border-2 mx-auto"
                 src="/drumseqcrop.png"
                 width="800"
                 height="400"
@@ -185,7 +184,7 @@ export default function Home() {
                 ET Bidding Game
               </h2>
               <Image
-                className="border-2"
+                className="border-2 mx-auto"
                 src="/et-bidding-game.png"
                 width="250"
                 height="500"
@@ -205,7 +204,7 @@ export default function Home() {
                 My Personal Blog Site
               </h2>
               <Image
-                className="border-2"
+                className="border-2 mx-auto"
                 src="/jackblog.png"
                 width="800"
                 height="400"
@@ -229,9 +228,11 @@ export default function Home() {
             </h2>
             <p className="text-left p-2">
               Working in a software agency on a variety of projects with
-              external companies. Currently working on a pension retirement
-              affordability tool. Technologies used: Typescript, React, Styled
-              Components, Nx, Css, html, C#, ASP.NET
+              external companies. Worked on a pension retirement affordability tool for 6 months using Typescript, React, Styled
+              Components, Nx, GraphQL, MongoDB. Now working on the support team, providing bug fixes, live support and new features for a wide range of projects.
+              This has allowed me to gain experience in multiple areas: working with legacy code, communicating with clients, devops, fixing live issues, working
+              with application logs and insights to solve bugs and working with a wide range of technologies: C#, ASP .NET, Python, Ruby on Rails, Visual Basic, Winforms,
+              Blazor, Razor, SQL and Azure  
             </p>
           </div>
           <div className="p-4 sm:max-w-4xl sm:w-full border-2 rounded-md my-8">
