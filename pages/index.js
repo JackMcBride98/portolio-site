@@ -59,7 +59,6 @@ export default function Home() {
           <a
             className="p-4"
             href="mailto:mcbride.jack1@gmail.com"
-            target="_blank"
           >
             {' '}
             <Image
@@ -84,21 +83,6 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="mt-8 p-4 sm:max-w-4xl w-full border-2 rounded-md">
-          <p className="text-left">
-            Hi, Thanks for checking out my portfolio. I am 26 years old and live in Bristol. I am
-            currently working as a Software Developer at Ghyston - a software development
-            agency and consultancy. I have a Diploma of Higher Education in Computer Science from the University of Bath. 
-            In my first year I won the Netcraft Prize for placing in the top 10 students in my year.
-            I am a highly creative individual and I enjoy designing and building fullstack web
-            applications. I have many hobbies and interests including: reading,
-            cooking, meditation, spirituality, music production, calisthenics,
-            running and surfing. I would be particurlaly interested in working
-            in the fields of: sustainability, health, education, music and
-            psychology.
-          </p>
-        </div>
-
         <div className="pt-6 sm:max-w-4xl w-full">
           <h2 className="text-xl pb-2">
             Languages, Frameworks and Technologies I am familiar with:
@@ -112,18 +96,18 @@ export default function Home() {
             <li>Vercel</li>
             <li>Tailwindcss</li>
             <li>C#</li>
-            <li>ASP .NET</li>
+            <li>.NET</li>
             <li>Azure</li>
             <li>Python</li>
             <li>Git</li>
             <li>mongodb</li>
-            <li>sql</li>
+            <li>SQL</li>
             <li>Ruby on Rails</li>
           </ul>
         </div>
 
         <div className="p-4 sm:max-w-4xl sm:w-full">
-          <h1 className="text-xl pb-2">Projects</h1>
+          <h2 className="text-xl pb-2">Projects</h2>
           <div className="group mb-8 border-2 rounded-xl">
             <a href="https://et-bidding-game.vercel.app/" target="_blank">
               <h2 className="text-lg font-bold py-2 group-hover:text-blue-500 group-hover:underline">
@@ -216,91 +200,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="sm:max-w-4xl sm:w-full">
-          <h1 className="text-xl pb-2">Experience</h1>
-          <div className="p-4 sm:max-w-4xl sm:w-full border-2 rounded-md my-8">
-            <h2 className="text-lg font-bold">
-              Software Developer at Ghyston October 2022 - Current
-            </h2>
-            <p className="text-left p-2">
-              Working in a software agency on a variety of projects with external companies.
-              Worked on a pension retirement affordability tool for 6 months using Typescript, React, Styled
-              Components, Nx, GraphQL, MongoDB. 
-            </p>
-            <p  className="text-left p-2">
-              Now working on the support team, providing new feature development, bug fixes and maintenance and for a wide range of projects.
-              This has allowed me to gain experience in multiple areas: working with legacy code, communicating with clients, devops, fixing live issues, working
-              with application logs and insights to solve bugs and working with a wide range of technologies: C#, ASP .NET, Python, Ruby on Rails, Visual Basic, Winforms,
-              Blazor, Razor, SQL and Azure. 
-            </p>
-            <p  className="text-left p-2">
-              After working on the support team, I have been working on an internal ERP (Enterprise Resourcing Planning) system. 
-              I have mentored junior developers on this project and have been responsible for the succesful migration away from the legacy system to the new system.  
-            </p>
-          </div>
-          <div className="p-4 sm:max-w-4xl sm:w-full border-2 rounded-md my-8">
-            <h2 className="text-lg font-bold">
-              Junior Web Engineer at siHealth November 2021 - October 2022
-            </h2>
-            <p className="text-left p-2">
-              My first job out of university. Worked closely in a team of 2
-              developers building a web portal using javascript, react and
-              tailwindcss. I really enjoyed working there. Have
-              built forms, graphs, weather info pages, login pages, handled
-              translations and learnt about the software engineering process,
-              using BitBucket, Jira and working with design, management and
-              backend teams to create a product I am proud to have helped with.
-              I had a close relationship with the more senior developer
-              on the web team. <br /> Gained experience using javascript, react,
-              html/css, tailwindcss, git, bitbucket, Jira, translations,
-              accesibility, SVG's, react-hook-form, amcharts and more
-            </p>
-          </div>
-          <div className="p-4 sm:max-w-4xl sm:w-full border-2 rounded-md my-8">
-            <h2 className="text-lg font-bold">
-              Summer Internship at CiteAb 2019
-            </h2>
-            <p className="text-left p-2">
-              Worked as software developer at CiteAb, a life sciences data
-              provider company, rearchitecting there web scraping processes.
-              Gained Experience using Ruby on Rails, Github, CSS selectors and
-              Haml.
-            </p>
-          </div>
-          <div className="p-4 max-w-4xl sm:w-full border-2 rounded-md pb-2 text-left">
-            <h2 className="text-lg font-bold text-center mb-4">
-              Computer Science at University of Bath 2017-2020
-            </h2>
-            <p className="pb-2 lg:px-4">
-              Awarded a Diploma of Higher Education <br />
-              Won the Netcraft Prize for placing in the top 10 students in first
-              year Computer Science. <br />
-              <span></span>Units Studied: <br />
-            </p>
-            <ul className="inline-grid md:grid-cols-2 text-left gap-x-1 justify-items-start list-disc list-inside lg:pl-4">
-              <li>Computing as a science and engineering discipline</li>
-              <li>Computer Systems Architecture 1</li>
-              <li>Discrete Maths for Computation</li>
-              <li>Principles of programming 1</li>
-              <li>Computer Systems Architecture 2</li>
-              <li>Analytical mathematics for applications</li>
-              <li>Principles of Programming 2</li>
-              <li>Human-computer interaction</li>
-              <li>Integrated group-based project</li>
-              <li>Foundations of computation</li>
-              <li>Fundamentals of visual computing</li>
-              <li>Data structures and algorithms</li>
-              <li>Databases</li>
-              <li>Fundamentals of machine learning</li>
-              <li>Artificial intelligence</li>
-              <li>Comparative programming languages</li>
-              <li>Functional programming</li>
-            </ul>
-          </div>
-        </div>
-        <div className="my-8 sm:max-w-4xl sm:w-full border-2 rounded-md text-left p-2 ">
-          <h2 className="text-xl my-2 font-bold text-center"> Contact </h2>
-          <p className="mb-4 px-4">
+        <h2 className="text-xl font-bold text-center"> Contact </h2>
+
+        <div className="mb-8 mt-4 sm:max-w-4xl sm:w-full border-2 rounded-md text-left p-4">
+          <p>
             Email: mcbride.jack1@gmail.com <br />
             Github:{' '}
             <a
